@@ -10,8 +10,8 @@
     },
     .dependencies = .{
         .upstream = .{
-            .url = "git+https://github.com/libarchive/libarchive.git?ref=v3.8.1#8e3167ca9840dc7b8d50d02db7db8595fc7d198e",
-            .hash = "N-V-__8AAL7rOAHsPl7WztZaVU01gjixtV8PAiVMO70smRzB",
+            .url = "git+https://github.com/libarchive/libarchive.git?ref=v3.8.9#701497fa91a60e70559b2512844f74971625da90",
+            .hash = "N-V-__8AAMrrOAEwlEQdoobrROT9HqnblW9U-SXUH7Es6vhv",
         },
         .zlib = .{
             .url = "git+https://github.com/allyourcodebase/zlib.git?ref=v1.3.2#d3b5519d3b73616a6bfece0712f080029d2a9244",
