@@ -411,6 +411,7 @@ pub fn build(b: *std.Build) void {
             "archive_entry_stat.c",
             "archive_entry_strmode.c",
             "archive_entry_xattr.c",
+            "archive_umask.c",
             "archive_time.c",
             "archive_hmac.c",
             "archive_match.c",
@@ -527,7 +528,6 @@ pub fn build(b: *std.Build) void {
                 "filter_fork_windows.c",
                 "archive_windows.c",
                 "archive_write_disk_windows.c",
-                "archive_umask.c",
             },
         });
     } else {
